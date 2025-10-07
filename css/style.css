@@ -126,6 +126,126 @@ img {
 /* <!-- sectionThree starts here -->
    <!-- sectionThree ends here --> */
 
+    /* sectionFour starts here   */
+
+    .watch_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side_wrapper{
+    background-image: url("../images/home/watch-series-5.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 54px;
+    width: 49%;
+    margin: 1% 0.5% 0% 1%;
+
+}
+.right_side_wrapper{
+    background-image: url("../images/home/apple-card.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    text-align: center;
+    padding: 54px;
+    margin: 1% 0.5% 0% 1%;
+
+}
+   /* sectionFour ends here   */
+
+     /* sectionFive starts here  */
+.appletv_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side_wrapper2{
+    background-image: url("../images/home/apple-tv-background.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    text-align: center;
+    padding: 54px;
+    margin: 1% 0.5% 0% 1%;
+}
+.right_side_wrapper2{
+   background-image: url("../images/home/air-pods.jpg");
+   
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 49%;
+     text-align: center;
+     background-color: black;
+     color: white;
+     padding: 54px;
+     margin: 1% 0.5% 0% 1%;
+}
+.appletv{
+    font-size: 40px;
+    font-weight: bold;
+}
+.servant_logo{
+    padding: 180px 0 200px;
+}
+.watchLink_wrapper{
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+.watchLink_wrapper::after{
+    font-family: "FontAwesome";
+    content: "\f144";
+    font-weight: 900;
+    padding-left: 15px;
+}
+.airPod{
+    font-size: 40px;
+    font-weight: bold;
+}
+.airPod_text{
+    max-width: 430px;
+    padding: 10px;
+    margin: auto;
+}
+    
+    /* sectionFive ends here */
+
+    /* sectionSix starts here  */
+    
+    .lastSection_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.lastLeftSection_wrapper{
+    background-image: url("../images/home/macbook-pro.jpg");
+    height: 580px;
+    background-position: bottom;
+  background-repeat: no-repeat;
+ padding:54px ;
+ margin: 1% 0.5% 0% 1%;
+    text-align: center;
+    width: 49%;
+    background-color: #fafafa;
+}
+.lastRightSide_wrapper{
+    background-image: url("../images/home/new-ipad.jpg");
+    background-repeat: no-repeat;
+    width: 49%;
+    text-align: center;
+    background-position: bottom;
+    padding: 54px;
+    margin:1% 0.5% 0% 1% ;
+    background-color: #fafafa;
+
+
+}
+    /* sectionSix ends here  */
 /* <!-- sectionFour starts here -->
    <!-- sectionFour ends here --> */
 
